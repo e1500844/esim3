@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="addInput2.js" language="Javascript" type="text/javascript"></script>
+  <script src="sha256.js" language="Javascript" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+      <li class="active"><a href="demo.html">Demo</a></li>
+    </ul>
+</nav>
+  
+<div class="container" style="margin-top:50px">
+  <div class="row">
+    <div class="col-md-4">
+	  <h1>Demo</h1>
+	</div>
+
+  </div>
+</div>
+<form ="dynamicInput">
+<form method="POST">
+	<div id="dynamicInput">
+	</div>
+	<input type="button" value="Add to Ledger" onClick="addInput2('dynamicInput');">
+</form>
+
+</body>
+</html>
